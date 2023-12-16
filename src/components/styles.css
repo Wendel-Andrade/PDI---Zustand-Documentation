@@ -1,0 +1,15 @@
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.manage-person-container {
+  margin-top: "10px" 
+}
+
+.manage-person-container input {
+  margin: 0 10px;
+}
+
