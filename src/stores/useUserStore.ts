@@ -24,7 +24,7 @@ export const useUserStore = create<User & Actions>()((set) => ({
   addUser: (user: User) => {
     set((state) => ({
       ...state,
-      users: [...state.users, user],
+      users: [...(state.users || []), user],
     }));
   },
   resetUser: () => {
